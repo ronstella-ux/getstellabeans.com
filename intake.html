@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18121859183"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18121859183');
+  </script>
+  <meta name="description" content="Share your office details with Stella Market & Bean Co using the intake form.">
+  <title>Office Intake Form | Stella Market & Bean Co</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo-round.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand" aria-label="Stella home">
+        <img class="brand-logo" src="assets/images/logo-round.png" alt="Stella round logo">
+        <img class="brand-wordmark" src="assets/images/logo-rect.png" alt="Stella Market & Bean Co logo">
+      </a>
+      <ul class="nav-links">
+
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="">About Us</a></li>
+        <li><a href="faq.html" class="">FAQ</a></li>
+        <li><a href="contact.html" class="">Contact Us</a></li>
+        <li><a href="intake.html" class="active">Intake Form</a></li>
+        <li><a href="https://calendly.com/ronstella-getstellabeans/15min" class="nav-cta" target="_blank" rel="noopener noreferrer">Book Free Trial</a></li>
+      </ul>
+      <button class="mobile-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
+    </div>
+    <div class="mobile-menu container">
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="intake.html">Intake Form</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="https://calendly.com/ronstella-getstellabeans/15min" target="_blank" rel="noopener noreferrer">Book a Free Trial</a>
+    </div>
+  </nav>
+
+<section class="page-hero">
+  <div class="container split-grid">
+    <div>
+      <span class="eyebrow">Office intake form</span>
+      <div class="section-head">
+        <h1>Tell us about your office.</h1>
+        <p>This intake helps Stella understand your team size, breakroom setup, and whether the free trial is a good fit.</p>
+      </div>
+      <div class="notice">Because this site is hosted as a static website, this form is set up to open a pre-filled email draft to info@getstellabeans.com when you submit.</div>
+    </div>
+    <div class="side-logo"><img src="assets/images/logo-rect.png" alt="Stella Market & Bean Co wordmark"></div>
+  </div>
+</section>
+<section class="section" style="padding-top:28px;">
+  <div class="container">
+    <form id="intake-mailto-form" class="form-card">
+      <div class="form-grid">
+        <div class="form-field"><label for="first_name">First name</label><input id="first_name" name="first_name" required></div>
+        <div class="form-field"><label for="last_name">Last name</label><input id="last_name" name="last_name" required></div>
+        <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" required></div>
+        <div class="form-field"><label for="title">Title</label><input id="title" name="title"></div>
+        <div class="form-field"><label for="company_name">Company name</label><input id="company_name" name="company_name" required></div>
+        <div class="form-field"><label for="company_address">Company address</label><input id="company_address" name="company_address"></div>
+        <div class="form-field"><label for="employees">How many employees are in the office?</label><input id="employees" name="employees" type="number" min="1"></div>
+        <div class="form-field"><label for="coffee_drinkers">Estimated coffee drinkers</label><input id="coffee_drinkers" name="coffee_drinkers" type="number" min="0"></div>
+        <div class="form-field full"><label for="hours_open">Office hours open</label><input id="hours_open" name="hours_open" placeholder="Example: Monday–Friday, 8:00 AM to 5:00 PM"></div>
+        <div class="form-field full"><label for="notes">Anything else we should know?</label><textarea id="notes" name="notes" placeholder="Current coffee setup, interest in cold brew, timing, trial goals, etc."></textarea></div>
+      </div>
+      <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+        <button type="submit" class="btn-primary" style="border:none;cursor:pointer;">Submit intake</button>
+        <a href="https://calendly.com/ronstella-getstellabeans/15min" target="_blank" rel="noopener noreferrer" class="btn-secondary">Or book a call</a>
+      </div>
+      <p class="small-note" style="margin-top:14px;">This will open your default email app with the completed intake details filled in.</p>
+    </form>
+  </div>
+</section>
+
+  <footer>
+    <div class="container footer-row">
+      <div>
+        <img src="assets/images/logo-rect.png" alt="Stella Market & Bean Co logo" style="height:44px;width:auto;border-radius:12px;margin-bottom:10px;">
+        <div>© 2026 Stella Market &amp; Bean Co</div>
+        <div>Premium office coffee across St. Charles, St. Louis, and the Greater St. Louis region.</div>
+      </div>
+      <div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+          <a href="intake.html">Intake Form</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <div style="margin-top:12px;"><a href="mailto:info@getstellabeans.com">info@getstellabeans.com</a> · <a href="tel:+13147097612">314-709-7612</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>

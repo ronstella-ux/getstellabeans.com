@@ -22,6 +22,7 @@ if(form){
       `Employees in office: ${data.get('employees')||''}`,
       `Estimated coffee drinkers: ${data.get('coffee_drinkers')||''}`,
       `Hours open: ${data.get('hours_open')||''}`,
+      `How did you hear about us: ${data.get('referral_source')||''}`,
       `Anything else: ${data.get('notes')||''}`
     ];
     const subject=encodeURIComponent('Stella Market & Bean Co Intake Form');

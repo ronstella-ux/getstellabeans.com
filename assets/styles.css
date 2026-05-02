@@ -40,3 +40,13 @@ footer{padding:34px 0 50px;border-top:1px solid var(--line)}.footer-row{display:
 }
 
 @media (max-width:1080px){.spec-grid{grid-template-columns:repeat(2,1fr);}}
+
+
+/* Updated photo framing for homepage revisions */
+.soft-photo-bg{background:#f7f1e6;}
+.hero-card img.contain-photo{object-fit:contain !important;background:#f7f1e6;padding:10px;height:560px;}
+.image-stack{grid-template-rows:340px 340px;}
+.image-stack img.contain-photo{object-fit:contain !important;background:#f7f1e6;padding:10px;}
+.drink-card img.contain-photo{object-fit:contain !important;background:#f7f1e6;padding:10px;height:270px;}
+@media (max-width:1080px){.image-stack{grid-template-rows:300px 300px;}}
+@media (max-width:760px){.hero-card img.contain-photo{height:380px}.image-stack{grid-template-rows:260px 260px}.drink-card img.contain-photo{height:240px}}

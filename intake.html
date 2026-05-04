@@ -26,16 +26,14 @@
   <link rel="icon" type="image/png" href="assets/images/logo-round.png">
   <link rel="stylesheet" href="assets/styles.css">
   <style>
-    .connect-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-    .connect-card{background:var(--white);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);padding:24px;display:flex;flex-direction:column;gap:12px}
-    .connect-card h3{margin:0;font-size:1.1rem}
-    .connect-card p{margin:0;color:var(--muted)}
     .connect-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
-    .connect-actions a{text-decoration:none}
+    .social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .social-card{background:var(--white);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);padding:24px;display:flex;justify-content:center;align-items:center;min-height:110px}
     .mini-stack{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
     .mini-tile{background:var(--white);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:18px}
     .mini-tile strong{display:block;margin-bottom:6px}
-    @media (max-width:860px){.connect-grid,.mini-stack{grid-template-columns:1fr}}
+    .mini-tile a{overflow-wrap:anywhere}
+    @media (max-width:860px){.social-grid,.mini-stack{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -76,7 +74,7 @@
         <span class="eyebrow">Connect With Us</span>
         <div class="section-head">
           <h1>Follow Stella Market &amp; Bean Co and stay connected.</h1>
-          <p>Find Stella Market across social, maps, reviews, and direct contact channels.</p>
+          <p>Use the links below to connect with Stella Market across social, reviews, maps, email, phone, and scheduling.</p>
         </div>
         <div class="connect-actions">
           <a href="https://calendly.com/ronstella-getstellabeans/15min" target="_blank" rel="noopener noreferrer" class="btn-primary">Book on Calendly</a>
@@ -89,30 +87,12 @@
 
   <section class="section" style="padding-top:28px;">
     <div class="container">
-      <div class="connect-grid">
-        <div class="connect-card">
-          <h3>LinkedIn</h3>
-          <p>Follow Stella Market &amp; Bean Co on LinkedIn for updates, business news, and office coffee content.</p>
-          <a href="https://www.linkedin.com/company/stella-market-bean-co/" target="_blank" rel="noopener noreferrer" class="btn-secondary">Visit LinkedIn</a>
-        </div>
-        <div class="connect-card">
-          <h3>Instagram</h3>
-          <p>See current setups, drinks, and office coffee visuals on Instagram.</p>
-          <a href="https://www.instagram.com/stella_market_bean?igsh=MTVxaXh3dmlyeWRreA==" target="_blank" rel="noopener noreferrer" class="btn-secondary">Visit Instagram</a>
-        </div>
-        <div class="connect-card">
-          <h3>Facebook</h3>
-          <p>Connect with Stella Market on Facebook.</p>
-          <a href="https://www.facebook.com/share/1bJiBMmiCb/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn-secondary">Visit Facebook</a>
-        </div>
-        <div class="connect-card">
-          <h3>Reviews &amp; Maps</h3>
-          <p>See Stella Market on Yelp or find us through Google Maps.</p>
-          <div class="connect-actions">
-            <a href="https://yelp.to/spj3tVEid-" target="_blank" rel="noopener noreferrer" class="btn-secondary">Visit Yelp</a>
-            <a href="https://maps.app.goo.gl/rpc4YjgPxbf5YG7u8?g_st=ic" target="_blank" rel="noopener noreferrer" class="btn-secondary">Open Google Maps</a>
-          </div>
-        </div>
+      <div class="social-grid">
+        <div class="social-card"><a href="https://www.linkedin.com/company/stella-market-bean-co/" target="_blank" rel="noopener noreferrer" class="btn-secondary">LinkedIn</a></div>
+        <div class="social-card"><a href="https://www.instagram.com/stella_market_bean?igsh=MTVxaXh3dmlyeWRreA==" target="_blank" rel="noopener noreferrer" class="btn-secondary">Instagram</a></div>
+        <div class="social-card"><a href="https://www.facebook.com/share/1bJiBMmiCb/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn-secondary">Facebook</a></div>
+        <div class="social-card"><a href="https://yelp.to/spj3tVEid-" target="_blank" rel="noopener noreferrer" class="btn-secondary">Yelp</a></div>
+        <div class="social-card"><a href="https://maps.app.goo.gl/rpc4YjgPxbf5YG7u8?g_st=ic" target="_blank" rel="noopener noreferrer" class="btn-secondary">Google Maps</a></div>
       </div>
 
       <div class="mini-stack">

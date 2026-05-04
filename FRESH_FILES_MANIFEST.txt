@@ -1,0 +1,17 @@
+Fresh site build created from latest known-good files.
+
+Base package:
+- stella-site-final-package.zip
+
+Overlaid latest pages/files:
+- home_intake_update_files/index.html
+- home_intake_update_files/assets/styles.css
+- home_intake_update_files/assets/images/latte-in-bodum.png
+- home_intake_update_files/assets/images/latte-in-bodum-wide.png
+- home_intake_update_files/assets/images/espresso-in-glencairn-glass.png
+- home_intake_update_files/assets/images/jura-for-website.png
+- faq.html (latest FAQ updates)
+- coldbrew.html (latest Cold Brew page)
+- connect-with-us.html -> intake.html
+
+Also updated visible wording from "Intake Form" to "Connect With Us" where needed and refreshed sitemap.xml.
